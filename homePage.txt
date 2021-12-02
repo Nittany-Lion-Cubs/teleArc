@@ -1,0 +1,52 @@
+
+------X-------FROM IMAGEBYTES-------X-------
+
+
+-------Search Bar for----------
+Patient id
+Patient Name
+refered physician
+
+
+
+-------Search Filter for----------
+Study Description / body part
+Date exam
+date upload
+reported date
+
+All
+Unread
+Report uploaded
+Report send
+
+
+
+--------Things to Show------
+Patient id
+Name
+Age
+Sex
+Exam time/date
+Upload time/date
+History
+Attachments
+Upload Report (will show "add report when no report present", else it will show the report)
+Send report (Button to send the report)
+Type of Scan
+number of section with number of images in it
+study description / Body Part
+refered physician
+
+
+
+---------X------FROM DOCTOR-------X-------
+
+
+Name
+Age
+Sex
+Clinical History
+reason for Scan
+-*- Ultra sound report for CT abdomen
+Previous Scan reports

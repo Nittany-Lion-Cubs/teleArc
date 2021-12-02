@@ -1,0 +1,91 @@
+
+/*-------------------- GLOBAL --------------------*/
+body{
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: arial;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+*:focus{
+  outline: none !important;
+}
+
+/*-------------------- LOGIN DATA --------------------*/
+
+#Page-heading{
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 3px #3C6464;
+  font-size: 54px;
+  color: white;
+  text-shadow: 2px 1.5px 2px black, 0 0 15px lightblue, 0 0 1px lightblue;
+}
+
+.Login-form{
+  background-color: rgba(0, 0, 0, 0.86);
+  margin: auto;
+  width: 500px;
+  height: 350px;
+  color: white;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+.form-element{
+  margin: 50px auto;
+  width: 300px;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.form-element input{
+  height: 40px;
+  margin-right: 0px;
+  padding-left: 10px;
+  width: 290px;
+  font-size: 17px;
+}
+
+.Transfer-Buttons{
+  color: white;
+  font-size: 20px;
+}
+
+#Signup-link{
+  color: inherit;
+  text-decoration: none;
+  margin-left: 130px;
+}
+
+#Signup-link:hover{
+  color: #E6B802;
+}
+
+#Submit-button{
+  border: 0px;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  height: 36px;
+  width: 85px;
+  margin-left: 110px;
+}
+
+#Submit-button:hover{
+  cursor: pointer;
+  background-color: #E6B802;
+  color: white;
+}

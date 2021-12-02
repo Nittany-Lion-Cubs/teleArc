@@ -1,0 +1,219 @@
+
+/*-------------------- GLOBAL --------------------*/
+body{
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: arial;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+*:focus{
+  outline: none !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/*------------------------- Nav Bar --------------------------*/
+
+/* Add a black background color to the top navigation */
+.topnav{
+  background-color: rgba(0, 0, 0, 0.86);
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.nav-item{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.nav-item:hover{
+  background-color: #E6B802;
+  color: black;
+}
+
+/* Place the back button on the left */
+.back-button{
+  float: left;
+}
+
+
+/*------------------------- Search Filters --------------------------*/
+
+/* Main Filter Area */
+.Search-Filter-Container{
+  width: 84%;
+  height: 6%;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: rgba(0, 0, 0, 0.9);
+  font-size: 20px;
+}
+
+.Filter-Label{
+  margin-left: 6%;
+}
+
+.Search-Filter{
+  background-color: rgba(256, 256, 256, 0.2);
+  border: 0px;
+  color: white;
+  font-size: 18px;
+
+  height: 100%;
+  width: 10%;
+  padding: 0px 10px;
+}
+
+.Money-Bar{
+  float: right;
+  width: 20%;
+  height: 100%;
+  background-color: pink;
+  color: black;
+}
+
+/*------------------------- Scan Listing --------------------------*/
+
+/* Main Container */
+.Scan-Listing-Container{
+  width: 70%;
+  height: 67%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y:auto;
+}
+
+/* Hidding the scrollbar */
+.Scan-Listing-Container::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.Scan-Listing-Container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Main Boxes */
+.Scan-Listing{
+  width: 100%;
+  height: 31%;
+  margin-bottom: 1.4%;
+
+  display: flex;
+
+  background-color: rgba(0, 0, 0, 0.97);
+  border-radius: 4px;
+}
+
+/* Objects on the left side of the container */
+.Left-Listing{
+  width: 70%;
+  height: 100%;
+}
+
+/* Objects on the right side of the container */
+.Right-Listing{
+  width: 30%;
+  height: 100%;
+}
+
+/* Common factors affecting all listing elements */
+.Listing-element{
+  display: block;
+  color: white;
+}
+
+/* Common factors affecting all listing elements on left */
+.Listing-element-left{
+  margin-left: 8%;
+}
+
+.TypeOfScan{
+  font-size: 2.2vw;
+  font-weight: bolder;
+  margin-top: 3%;
+}
+
+.PatientHistory{
+  font-size: 1vw;
+  font-weight: lighter;
+  max-width: 80%;
+  height: 40%;
+}
+
+.Deadline{
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+
+/* Common factors affecting all listing elements on right */
+.Listing-element-right{
+  margin-left: 35%;
+}
+
+.CashForScan{
+  font-size: 2.4vw;
+  font-weight: bolder;
+  margin-top: 4%;
+  margin-left: 38%;
+}
+
+.Submit-button{
+  width: 45%;
+  height: 20%;
+  margin-top: 14%;
+
+  font-size: 1.2vw;
+  font-weight: bold;
+  color: white;
+
+  background-color: #E6B802;
+  border: 0px;
+  border-radius: 2px;
+}
+
+.Submit-button:hover{
+  background-color: rgba(0, 0, 0, 0.97);
+  border: 2px solid #E6B802;
+  color: #E6B802;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

@@ -1,0 +1,144 @@
+
+/*-------------------- GLOBAL --------------------*/
+body{
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: arial;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+*:focus{
+  outline: none !important;
+}
+
+.Form-Divition{
+  font-family: arial;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  color: #DFDFDF;
+  margin-bottom: 16px;
+}
+
+legend{
+  font-size: 16px;
+  color: #DDD;
+}
+
+/*-------------------- OverAll Form Setting --------------------*/
+
+#Page-heading{
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 3px #3C6464;
+  font-size: 54px;
+  color: #EEE;
+  text-shadow: 2px 2px 2px black, 0 0 15px lightblue, 1px 0 2px black;
+}
+
+.Apply-form{
+  background-color: rgba(0, 0, 0, 0.86);
+  margin: auto;
+  width: 800px;
+  color: white;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+.form-element{
+  margin: 50px auto;
+  width: 500px;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+/* ------------------ For all the Inputboxes ----------------- */
+
+.InputData, .InputData:hover{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 2px 0px 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0);
+  font-size: 16px;
+  color: #E6B802;
+}
+
+.InputData:hover{
+  background-color: rgba(0,0,0,0.1);
+}
+
+.TextInput label{
+  color: #DDDDDD;
+  font-size: 16px;
+}
+
+
+.FileInput{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 2px 0px 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #333;
+}
+
+::-webkit-file-upload-button{
+  border: 0px;
+  background-color: rgba(0,0,0,0);
+  color: #DDD;
+  font-size: 18px;
+}
+
+.InputFile, .InputFile:hover{
+  background-color: rgba(100, 100, 100, 0.3);
+  border: 0px;
+  color: #e6b800;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.FileInput label{
+  color: #DDD;
+  cursor: pointer;
+}
+
+/* -------------- Buttons and links that will lead to other pages ------ */
+
+.Transfer-Buttons{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+#Submit-button{
+  border: 0px;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  height: 36px;
+  width: 285px;
+}
+
+#Submit-button:hover{
+  cursor: pointer;
+  background-color: #E6B802;
+  color: white;
+}

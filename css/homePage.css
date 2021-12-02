@@ -1,0 +1,152 @@
+
+/*-------------------- GLOBAL --------------------*/
+body{
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: arial;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+*:focus{
+  outline: none !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/*------------------------- Search Filters --------------------------*/
+
+.Search-filters{
+  width: 92%;
+  height: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  background-color: rgba(0, 0, 0, 0.86);
+  padding: 25px 0px;
+  border-radius: 6px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+    height: 50px;
+    width: 200px;
+    color: #DDDDDD;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Filter-Box, .Filter-Box:hover{
+  width: 100%;
+  padding: .36vh 20px;
+  margin: 2px 0px 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0);
+  font-size: 16px;
+  color: #E6B802;
+}
+
+.Filter-Box:hover{
+  border: 2px black solid;
+  background-color: #E6B802;
+  color: black;
+  cursor: pointer;
+}
+
+#Custom-Scan-Date-Filter{
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding: .36vh 20px;
+}
+#Custom-Scan-Date-Filter:hover{
+  border: 1px rgba(219, 183, 0, 0.96) solid;
+  font-weight: 600;
+}
+
+#From-Date{
+  border: none;
+  border-right: 1px solid #E6B802;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+#To-Date{
+  border: none;
+  border-left: 1px solid #E6B802;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+/*------------------------- Main Table --------------------------*/
+
+.Main-Table{
+  width: 92%;
+  height: 74vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.86);
+  padding: 25px 0px;
+  border-radius: 6px;
+}
+
+#Index-Table{
+  width: 98%;
+  border: 1px solid #EDEDED;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: scroll;
+  overflow: visible;
+}
+
+.Head-Row{
+  color: #E4E3E6;
+}
+
+.Header-column{
+  border: 1px solid #EDEDED;
+  font-weight: bolder;
+  font-size: 18px;
+  width: 160px;
+  height: 60px;
+  color: #E6B802;
+  background-color: rgba(9, 9, 9, 0.86);
+}
+
+.Normal-Row{
+  color: white;
+}
+
+.Normal-Row:hover{
+  background-color: #D6A802;
+  color: black;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.N-column{
+  border: 1px solid #EDEDED;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
